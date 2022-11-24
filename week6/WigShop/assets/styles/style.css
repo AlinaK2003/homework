@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 990px;
+    color: #fafafa;
+}
+
+.container {
+    width: 1440px;
+    height: 990px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 5% 95%;
+}
+
+header {
+    justify-self: stretch;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 1099px;
+    justify-self: stretch;
+    display: grid;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 30% 69.5%;
+    grid-gap: 5px;
+}
+
+form {
+    align-self: center;
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: 70% 30%;
+grid-gap: 1%;
+}
+
+.ul {
+ align-self: center;
+ justify-self: stretch;
+ display: grid;
+ grid-template-columns: 90% 10%;
+ justify-content: space-between;
+}
+
+.topnav {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 5%);
+    justify-content: space-around;
+}
+
+.products,
+.story,
+.manufacturing,
+.packaging {
+    align-self: center;
+    justify-self: center;
+
+    width: 70px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.bp {
+    display: grid;
+    grid-template-columns: 30px 30px;
+    grid-gap: 5px;
+}
+
+.person {
+    height: 32px;
+}
+
+aside {
+    width: 289px;
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+
+.explore {
+justify-self: center;
+width: 106px;
+height: 47px;
+top: 152px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 47px;
+
+color: #000000;
+}
+
+.sidenav {
+    width: 153.96px;
+    height: 879.6px;
+    list-style-type: none;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: repeat(9, 24px);
+    grid-gap: 27.42px;
+    justify-content: start;
+}
+
+.newin,
+.clothing,
+.shoes,
+.accessories,
+.activewear,
+.gifts,
+.inspiration,
+.helpcenter {
+align-self: center;
+justify-self: start;
+height: 24px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15.7099px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.help {
+    list-style-type: none;
+    height: 100px;
+    width: 153.96px;
+    display: grid;
+}
+
+.sales {
+    width: 539px;
+    height: 380px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 21px;
+}
+
+.wigs1 {
+    width: 539px;
+    height: 380px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 21px;
+}
+
+.wigs2 {
+    width: 539px;
+    height: 380px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 21px;
+}
+
+.ads {
+    width: 539px;
+    height: 380px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 22px;
+}
+
+.gu {
+position: absolute;
+top: 72px;
+left: 133px;
+    width: 300px;
+height: 47px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 47px;
+
+color: #000000;
+}
+
+.getup {
+position: relative;
+text-align: center;
+}
+
+.pic1 {
+    width: 539px;
+height: 180px;
+}
+
+.pic2 {
+    width: 539px;
+height: 180px;
+}
+
+.pinkwig,
+.curlywig,
+.wigless,
+.whitewig,
+.bluewig,
+.peachywig {
+    position: relative;
+    align-items: center;
+}
+
+.like1,
+.like2,
+.like3,
+.like4 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+.tnh {
+position: absolute;
+align-items: center;
+top: 62px;
+left: 30px;
+width: 300px;
+height: 40px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 40px;
+
+color: #001AA2;
+}
+
+.tnhdesc {
+    position: absolute;
+    align-items: center;
+    top: 105px;
+    left: 30px;
+
+    font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.buyit {
+    position: absolute;
+    align-items: center;
+    top: 61px;
+    left: 30px;
+
+    font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 40px;
+
+color: #FD2E24;
+}
+
+.new {
+    position: absolute;
+    align-items: center;
+    top: 104px;
+    left: 30px;
+    font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+
+color: #000000;
+}
+
+main {
+    width: 1099px;
+    height: 783px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-gap: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
