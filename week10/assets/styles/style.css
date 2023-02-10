@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 0rem 1rem 1.5rem 1.5rem rgb(215, 215, 215);
+    
+}
+
+.header__heading {
+font-family: 'Pacifico';
+font-size: 4rem;
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container__content_header {
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+
+.container__content_header_heading {
+    font-family: 'Pacifico';
+    font-size: 4.5rem;
+}
+
+img {
+height: 30rem;
+width: 30rem;
+}
+
+input {
+    height: 10rem;
+    width: 10rem;
+}
+
+.container__content_gallery {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+}
