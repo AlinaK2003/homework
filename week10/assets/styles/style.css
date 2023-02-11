@@ -43,6 +43,9 @@ width: 30rem;
 input {
     height: 10rem;
     width: 10rem;
+    padding-top: 10rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
 }
 
 .container__content_gallery {

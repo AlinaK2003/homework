@@ -1,5 +1,7 @@
 function showMessage() {
-    console.log("Welcome!")
+    console.log("Я учу JavaScript!")
 };
 
 showMessage();
+
+var totalSlides=document.getElementById()
