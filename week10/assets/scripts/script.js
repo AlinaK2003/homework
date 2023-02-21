@@ -4,4 +4,4 @@ function showMessage() {
 
 showMessage();
 
-var totalSlides=document.getElementById()
+const buttons = document.getElementById(input)

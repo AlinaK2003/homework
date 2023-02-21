@@ -23,19 +23,19 @@ font-size: 4rem;
     justify-content: center;
 }
 
-.container__content_header {
+.container__header {
     display: flex;
     padding-top: 6rem;
     padding-bottom: 3rem;
     justify-content: center;
 }
 
-.container__content_header_heading {
+.container__heading {
     font-family: 'Pacifico';
     font-size: 4.5rem;
 }
 
-img {
+.container__image {
 height: 30rem;
 width: 30rem;
 }
@@ -48,7 +48,7 @@ input {
     padding-left: 10rem;
 }
 
-.container__content_gallery {
+.container__gallery {
     display: flex;
     padding-top: 1rem;
     padding-bottom: 4rem;
