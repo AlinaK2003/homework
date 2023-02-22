@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="./assets/styles/style.css" rel="stylesheet">
-    <script src="./assets/scripts/script.js"></script>
     <title>Week10</title>
 </head>
 
@@ -22,17 +21,22 @@
                 <p class="container__heading">Cats</p>
             </div>
             <div class="container__gallery">
-                <input type="image" src="./assets/images/vecteezy_cat-paw-clipart-design-illustration_9303117_670.png"
-                    alt="кнопка" onclick="showNext()">
-                <img class="container__image whiteCat" src="./assets/images/2c9c20954029da1dec1020493d9b1347.jpg"
-                    alt="white cat">
-                <img class="container__image fairyCat" src="./assets/images/5b9773b64b88f902f0d5b7c5d59aba38.jpg"
-                    alt="fairy cat">
-                <input type="image" src="./assets/images/vecteezy_cat-paw-clipart-design-illustration_9303117_670.png"
-                    alt="кнопка">
+                <input onclick="showLast()" class="container__button" type="image" src="./assets/images/paw.png"
+                    alt="кнопка" />
+                <img id="image" src="./assets/images/whitecat.jpg" alt="white cat">
+                <input onclick="showNext()" class="container__button" type="image" src="./assets/images/paw.png"
+                    alt="кнопка" />
+            </div>
+            <div class="container__header">
+                <p class="container__heading">Is this a leap year ?</p>
+            </div>
+            <div class="container__calender">
+                <input сlass="container__year" value="" id="year" />
+                <button onclick="findYear()" class="container__findButton">Find!</button>
             </div>
         </div>
     </main>
+    <script src="./assets/scripts/script.js"></script>
 </body>
 
 </html>
