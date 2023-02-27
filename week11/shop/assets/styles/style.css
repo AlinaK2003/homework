@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.header__heading {
+    font-family: 'Playfair Display';
+font-size: 4rem;
+justify-self: center;
+letter-spacing: 0.2rem;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-items: center;
+}
+
+.container__items {
+    border: solid black;
+}
+
+.container-item {
+    border-bottom: solid black;
+}
+
+.container-item-grid {
+    display: grid;
+    grid-template-columns: 23% 77%;
+}
+
+.container__items_name {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+}
+
+.container__items_item-name {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.container__items_price-tag {
+    color: rgb(225, 0, 0);
+}
+
+.container__items_price {
+    display: flex;
+    align-items: center;
+}
+
+.data-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__buttons {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
