@@ -68,3 +68,18 @@ img {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.total {
+    font-weight: bolder;
+}
+
+.end {
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+}
+
+.end-price {
+    margin-top: -2rem;
+}

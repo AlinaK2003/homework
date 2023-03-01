@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="container__items_price">
-                        <span class="container__items_price-tag">2 000 руб.</span>
+                        <span class="container__items_price-tag price">2 000 руб.</span>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="container__items_price">
-                        <span class="container__items_price-tag">5 500 руб.</span>
+                        <span class="container__items_price-tag price">5 500 руб.</span>
                     </div>
                 </div>
             </div>
@@ -70,17 +70,17 @@
                         </div>
                     </div>
                     <div class="container__items_price">
-                        <span class="container__items_price-tag">3 190 руб.</span>
+                        <span class="container__items_price-tag price">3 190 руб.</span>
                     </div>
                 </div>
             </div>
 
             <div class="container__items_heels container-item-grid">
                 <div class="container__items_image">
-                    <img src="./assets/images/heels.jpg" alt="каблуки">
+                    <img src="./assets/images/heels.jpg" alt="туфли">
                 </div>
                 <div class="container__items_name">
-                    <span class="container__items_item-name">Каблуки</span>
+                    <span class="container__items_item-name">Туфли</span>
                     <div class="container__items_data">
                         <div class="container__items_data data-group">
                             <span>Цвет: Розовый</span>
@@ -89,16 +89,21 @@
                         </div>
                     </div>
                     <div class="container__items_price">
-                        <span class="container__items_price-tag">7 584 руб.</span>
+                        <span class="container__items_price-tag price">7 584 руб.</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container__buttons">
-            <button>Использовать купон на 20%</button>
-            <span class="container__buttons total">Итого:<br>18 274 руб.</span>
+            <button type="button" class="btn btn-outline-dark" onclick="calcDiscount()">Использовать купон на
+                20%</button>
+            <div class="container__buttons end">
+                <span class="container__buttons total">Итого: </span>
+                <span class="container__buttons end-price price">18 274 руб.</span>
+            </div>
         </div>
     </main>
+    <script src="./assets/scripts/script.js"></script>
 </body>
 
 </html>
